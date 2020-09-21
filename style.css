@@ -1,0 +1,467 @@
+body{
+  margin: 0;
+  padding:0;
+  background-color: black;
+  color: white;
+}
+
+/*Affichage de l'image*/
+#accueil{
+  height: 900px;
+  width: 100%;
+  background-image: url('./image/accueil.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+
+}
+.centre{
+  color: red;
+}
+/*Dimension de la navbarre*/
+.logo{
+  height: 70px;
+  width: 100%;
+
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+/*Dimension du logo*/
+.logo img{
+  height: 60px;
+  margin: 2em;
+}
+
+/*Menu slide*/
+.menu{
+  height: 550px;
+  width: 100%;
+  background: yellow;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Anton', sans-serif;
+  text-decoration: none;
+}
+
+.menu , a {
+  text-decoration:none;
+  color: #000;
+}
+
+span{
+  position: fixed;
+  right: 10px;
+}
+/*Titre*/
+h1{
+  color: yellow;
+  font-family: 'Trade Winds';
+  margin-right:5em;
+  text-shadow: 0px 0px 11px rgba(0, 0, 0, 0.83);
+  color: #FFF500;
+  font-size: 52px;
+
+  position: absolute;
+  right: 0px;
+  top:600px;
+}
+
+.subtitle{
+  position: absolute;
+  right: 150px;
+  top: 700px;
+  color: grey;
+  font-size: 32px;
+  font-family: 'Oswald' ;
+}
+
+.espace{
+  height: 200px;
+}
+section
+{
+  height: : 400px;
+  width: 100%;
+
+}
+                  /*Premier article*/
+
+.blocBlanc{
+   background-color: white;
+   height: 300px;
+   width: 500px;
+   color: black;
+
+   text-align: center;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+
+.qui{
+  font-size: 2em;
+  color:black;
+  font-family: 'Heebo';
+
+}
+
+.Blocblaanc{
+    background-color: white;
+    height: 300px;
+    width: 500px;
+}
+
+.qui:hover{
+  color: black;
+  font-weight: bold;
+  font-size: 65px;
+}
+.descript{
+  font-size: 1em;
+  color: black;
+  position: relative;
+  top: 105px;
+
+  padding: 0 8px 0 8px;
+}
+
+#n°1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#n°2
+{
+
+height: 500px;
+width: 100%;
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+
+}
+
+#n°2 .cardbox
+{
+
+  background-color: yellow;
+  height: 360px;
+  width: 470px;
+
+}
+
+.espace
+{
+  height: 20px;
+  width: 100px;
+
+}
+
+.titree{
+  width :600px;
+}
+
+.titree:hover{
+  color: yellow;
+}
+
+.espacee
+{
+  height: 100px;
+  width: 20px;
+}
+
+#n°2 .cardbox img{
+
+  position: relative;
+  top: 30px;
+  left : 30px;
+}
+
+#n°2 h3
+{
+  font-size: 30px;
+}
+ #n°2 .centrage
+ {
+   height: 400px;
+   width: 600px;
+   border: 1px solid yellow;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+
+   text-align: center;
+   padding: 20px;
+ }
+
+ #n°3
+ {
+
+ height: 1200px;
+ width: 100%
+
+ }
+
+ #n°3 h2
+ {
+   text-align: center;
+   font-size: 40px;
+ }
+
+ #n°3 .cardbox2
+ {
+   background-color: white;
+   color: black;
+   width: 600px;
+   height: 500px;
+   padding: 30px;
+
+ }
+
+ #n°3 .cardbox2 img
+ {
+   position: relative;
+   left: 450px;
+ }
+
+.tarika
+{
+  height: 500px;
+}
+
+#n°4
+{
+  height: 500px;
+  width: 100%;
+
+}
+
+#n°4 .cardbox3
+{
+  height: 500px;
+  width: 1200px;
+  background-color: yellow;
+
+  position: absolute;
+  right: 0;
+
+  display: flex;
+  flex-direction: row;
+
+  border-radius: 15px;
+
+
+}
+
+#n°4 .blockBlanc
+{
+
+  background-color: white;
+  color: black;
+  height: 550px;
+  width: 450px;
+
+  position: absolute;
+  right: 90px;
+
+  text-align: center;
+  padding: 20px;
+
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+#n°5
+{
+  height: 460px;
+  width: 100%;
+}
+#n°5 img
+{
+  height: 460px;
+  width: 100%;
+
+}
+
+#n°6
+{
+  height: 660px;
+  width: 100%;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#n°6 table .noms
+{
+  height: 167px;
+  width: 168px;
+  border : 1px solid purple;
+}
+
+#n°6 table img
+{
+
+  height: 167px;
+  width: 168px;
+
+  -webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+
+}
+
+#n°6 table img:hover{
+  -webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+#n°6 h2
+{
+  color: Yellow;
+  font-size: 3em;
+}
+
+#n°6 .text-align{
+  text-align: center;
+}
+
+
+
+
+.description{
+  color: black;
+  width: 700px;
+  background-color: white;
+
+  text-align: center;
+  padding: 20px 10px 20px 10px;
+}
+
+.tailleDescription{
+  height: 100px;
+  width: 700px;
+  border: 1px solid yellow;
+  text-align: center;
+}
+.Galerie{
+  color: yellow;
+}
+
+#n°7{
+  border: 1px solid blue;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+
+#n°7 .slider{
+  width: 350px;
+  height: 200px;
+  overflow: hidden;
+  margin: 150px auto;
+}
+#n°7 .slides{
+  width: calc(350px * 3);
+  animation: glisse 5s infinite;
+}
+#n°7 .slide{
+  float:left;
+}
+
+@@keyframes glisse {
+
+  0% {
+    transform: translateX(0);
+  }
+
+  8,25% {
+    transform: translateX(-350px);
+  }
+
+  16,5% {
+    transform: translateX(-700px);
+  }
+
+  24,75% {
+    transform: translateX(-1050px);
+  }
+
+  33% {
+    transform: translateX(-1400px);
+  }
+
+  41,25% {
+    transform: translateX(-1750px);
+  }
+
+  49,5% {
+    transform: translateX(-2100px);
+  }
+
+  57,75% {
+    transform: translateX(-2450px);
+  }
+
+  66% {
+    transform: translateX(-2800px);
+  }
+
+  74,25% {
+    transform: translateX(-3150px);
+  }
+
+  82,5% {
+    transform: translateX(-3500px);
+  }
+
+  90,75% {
+    transform: translateX(-3850px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/*#n°7 .un{
+  background: url('image/1.jpg');
+  background-repeat: no-repeat;
+}
+ #n°7 .deux{
+   background: url('image/2.jpg');
+   background-repeat: no-repeat;
+
+ }*/
+footer
+{
+
+  background: #333;
+  padding: 50px 0 50px;
+  text-align: center;
+  height: 100px;
+  width: 100%;
+}
